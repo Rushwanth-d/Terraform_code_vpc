@@ -1,5 +1,5 @@
 module "vpc" {
-  source = "./module"
+  source = "./modules"
 
   region              = "ap-south-1"
   cidr_block_value    = "10.0.0.0/16"
